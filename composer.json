@@ -1,0 +1,15 @@
+{
+    "name": "paulorlima9/geoplugin",
+    "description": "PHP Client Geo Plugin",
+    "keywords": ["services", "geo-ip"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/cache": "^9.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeoPlugin\\": "src"
+        }
+    }
+}
